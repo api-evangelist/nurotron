@@ -1,19 +1,47 @@
 aid: nurotron
-name: nurotron
-description: nurotron is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nurotron.png
+name: Nurotron
+description: Nurotron (Zhejiang Nurotron Neural Electronic Technology Co., Ltd. / 诺尔康)
+  is a Hangzhou, China-based medical device manufacturer specializing in neural electrical
+  stimulation. Its self-developed neural-prosthesis and neuromodulation product lines
+  span auditory reconstruction (cochlear implants and speech processors such as the
+  CS-10A/CS-20A/CS-30A implant bodies and Airum/NSP processors), visual reconstruction,
+  urological and pelvic-nerve disease treatment, and brain neuromodulation. The company
+  runs a corporate marketing and patient-support website with product, technical-support,
+  rehabilitation-community, and news sections. It is a hardware medical-device company
+  and publishes no public developer API, SDK, or machine-readable API surface. Surfaced
+  as a portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network for tracking.
 url: https://raw.githubusercontent.com/api-evangelist/nurotron/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Medical Devices
+- Neural Stimulation
+- Cochlear Implant
+- Hearing
+- Neuromodulation
+- Healthcare
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nurotron-domain-security.yml
 - type: Website
   url: https://nurotron.com
+- type: Blog
+  url: https://nurotron.com/news.html
+- type: Support
+  url: https://nurotron.com/contactus.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
