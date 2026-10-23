@@ -7,12 +7,9 @@
     },
     {
       "source": "https://nurotron.com",
-      "feed_url": "https://nurotron.com",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "URLError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
